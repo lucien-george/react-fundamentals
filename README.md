@@ -6,7 +6,7 @@
   </strong>
   <p>
     Learn everything you need to be effective with the fundamental building
-    block of React applications. When you’re finished, you’ll be prepared to
+    block of React applications. When you're finished, you'll be prepared to
     create React components to build excellent experiences for your app's users.
   </p>
 
@@ -25,6 +25,7 @@
 [![GPL 3.0 License][license-badge]][license]
 [![All Contributors][all-contributors-badge]](#contributors-)
 [![Code of Conduct][coc-badge]][coc]
+[![Gitpod ready-to-code][gitpod-badge]](https://gitpod.io/#https://github.com/kentcdodds/react-fundamentals)
 <!-- prettier-ignore-end -->
 
 ## Prerequisites
@@ -36,10 +37,27 @@
   (recommended),
   [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/))
 
+> NOTE: The EpicReact.dev videos were recorded with React version ^16.13 and all
+> material in this repo has been updated to React version ^18. Differences are
+> minor and any relevant differences are noted in the instructions.
+
+## Quick start
+
+It's recommended you run everything in the same environment you work in every
+day, but if you don't want to set up the repository locally, you can get started
+in one click with [Gitpod](https://gitpod.io),
+[CodeSandbox](https://codesandbox.io/s/github/kentcdodds/react-fundamentals), or
+by following the [video demo](https://www.youtube.com/watch?v=gCoVJm3hGk4)
+instructions for [GitHub Codespaces](https://github.com/features/codespaces).
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/kentcdodds/react-fundamentals)
+
+For a local development environment, follow the instructions below
+
 ## System Requirements
 
 - [git][git] v2.13 or greater
-- [NodeJS][node] `12 || 14 || 15 || 16`
+- [NodeJS][node] `14 || 16 || 18`
 - [npm][npm] v6 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
@@ -97,12 +115,6 @@ setup the project with the following command:
 ```shell
 docker-compose up
 ```
-
-It's recommended you run everything locally in the same environment you work in
-every day, but if you're having issues getting things set up, you can also set
-this up using [GitHub Codespaces](https://github.com/features/codespaces)
-([video demo](https://www.youtube.com/watch?v=gCoVJm3hGk4)) or
-[Codesandbox](https://codesandbox.io/s/github/kentcdodds/react-fundamentals).
 
 ## Running the app
 
@@ -244,6 +256,11 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://github.com/octokatherine"><img src="https://avatars.githubusercontent.com/u/49968061?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Katherine Peterson</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=octokatherine" title="Documentation">📖</a></td>
     <td align="center"><a href="https://alexcwatt.com/"><img src="https://avatars.githubusercontent.com/u/494201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Watt</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=alexcwatt" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/nedredmond"><img src="https://avatars.githubusercontent.com/u/23404711?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ned Redmond</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=nedredmond" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/ozadari5"><img src="https://avatars.githubusercontent.com/u/92675396?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oz Adari</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=ozadari5" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/cRAN-cg"><img src="https://avatars.githubusercontent.com/u/8614844?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chiranjeev Gupta</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=cRAN-cg" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/sunnatganiev"><img src="https://avatars.githubusercontent.com/u/38115176?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sunnatullo Ganiev</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=sunnatganiev" title="Documentation">📖</a></td>
   </tr>
 </table>
 
@@ -273,6 +290,7 @@ Thank you! https://kcd.im/rf-ws-feedback
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
 [license]: https://github.com/kentcdodds/react-fundamentals/blob/main/LICENSE
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
+[gitpod-badge]: https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod
 [coc]: https://github.com/kentcdodds/react-fundamentals/blob/main/CODE_OF_CONDUCT.md
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
